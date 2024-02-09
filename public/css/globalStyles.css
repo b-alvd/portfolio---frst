@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
