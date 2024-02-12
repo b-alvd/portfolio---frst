@@ -1,25 +1,74 @@
 header {
     height: 100vh;
 }
+header nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+}
+header nav ul a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: all ease-in-out .3s;
+}
+header nav ul a:hover {
+    color: orange;
+    text-decoration: overline;
+}
+header nav button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    transition: all ease-in-out .3s;
+}
+header nav button:hover {
+    background: rgb(175, 175, 175);
+}
+.light-mode header nav button {
+    background: #333;
+}
+.light-mode header nav button:hover {
+    background: rgb(175, 175, 175);
+}
+header nav select {
+    cursor: pointer;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    border-radius: 2px;
+    transition: all ease-in-out .3s;
+}
+.light-mode header nav select {
+    background: #333;
+    color: white;
+}
 
 #informations {
     height: 100vh;
-    background-color: red;
 }
 
 #course {
     height: 100vh;
-    background-color: blue;
 }
 
 #projects {
     height: 100vh;
-    background-color: purple;
 }
 
 #contact {
     height: 100vh;
-    background-color: orange;
 }
 
 #scrollToTop {
