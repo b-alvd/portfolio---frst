@@ -21,6 +21,31 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
 }
 
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: all ease-in-out .3s;
+}
+#scrollToTop:hover {
+    background-color: #dbdbdb;
+}
+.light-mode #scrollToTop {
+    background-color: #333;
+}
+.light-mode #scrollToTop:hover {
+    background-color: #555;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

@@ -1,9 +1,11 @@
 header {
-    height: 100vh;
-}
-header nav {
+    height: 8.5vh;
     top: 0;
     position: sticky;
+    background-color: #20202098;
+    backdrop-filter: blur(10px);
+}
+header nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,74 +20,56 @@ header nav ul a {
     padding: 10px;
     margin: 10px;
     text-decoration: none;
-    color: inherit;
+    color: #fff;
     transition: all ease-in-out .3s;
 }
 header nav ul a:hover {
     color: orange;
     text-decoration: overline;
 }
-header nav button {
+header nav .params button {
     cursor: pointer;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 5px;
     border: none;
     border-radius: 50px;
     transition: all ease-in-out .3s;
 }
-header nav button:hover {
-    background: rgb(175, 175, 175);
-}
-.light-mode header nav button {
+.light-mode header nav .params button {
     background: #333;
 }
-.light-mode header nav button:hover {
-    background: rgb(175, 175, 175);
-}
-header nav select {
+header nav .params select {
     cursor: pointer;
     padding: 5px;
-    margin: 20px;
+    margin: 20px 5px;
     border: none;
     border-radius: 2px;
     transition: all ease-in-out .3s;
 }
-.light-mode header nav select {
+.light-mode header nav .params select {
     background: #333;
     color: white;
 }
 
-#informations {
-    height: 100vh;
+#header_home {
+    height: 91.5vh;
+}
+.light-mode #header_home img {
+    background: #333;
+    border-radius: 300px;
 }
 
-#course {
-    height: 100vh;
+@media screen and (max-width: 790px) {
+    header nav ul {
+        display: none;
+    }
+    header nav .params {
+        margin-top: -1.5vh;
+        margin-right: 50vw;
+    }
 }
 
-#projects {
+main section {
     height: 100vh;
-}
-
-#contact {
-    height: 100vh;
-}
-
-#scrollToTop {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #333;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 25px;
-    transition: all ease-in-out .3s;
-}
-#scrollToTop:hover {
-    background-color: #555;
+    border: 2px solid red;
 }

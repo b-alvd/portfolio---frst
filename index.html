@@ -12,24 +12,43 @@
     <body>
         <button onclick="scrollToTop()" id="scrollToTop" title="Retourner en haut de page">⬆️</button>
 
-        <header id="home">
+        <header>
             <nav>
                 <ul>
-                    <li><a id="header_link1" class="active" href="#home"></a></li>
+                    <li><a id="header_link1" class="active" href="#"></a></li>
                     <li><a id="header_link2" href="#informations"></a></li>
                     <li><a id="header_link3" href="#course"></a></li>
                     <li><a id="header_link4" href="#projects"></a></li>
                     <li><a id="header_link5" href="#contact"></a></li>
                 </ul>
-                <button onclick="themeChange()" id="modeToggle">☀️</button>
-                <select id="langSelect" onchange="changeLanguage()">
-                    <option value="fr"><img src="./public/imgs/french_flag.png">Français</option>
-                    <option value="en"><img src="./public/imgs/english_flag.png">English</option>
-                </select>
+                <section class="params">
+                    <button onclick="themeChange()" id="modeToggle">☀️</button>
+                    <select id="langSelect" onchange="changeLanguage()">
+                        <option value="fr">Français</option>
+                        <option value="en">English</option>
+                    </select>
+                </section>
             </nav>
-
-            <h1 id="header_title"></h1>
         </header>
+        <section id="header_home">
+            <h1 id="header_title"></h1>
+            <img src="./public/imgs/logo.webp" alt="logo BAD">
+        </section>
+
+        <main>
+            <section id="informations">
+
+            </section>
+            <section id="course">
+
+            </section>
+            <section id="projects">
+
+            </section>
+            <section id="contact">
+
+            </section>
+        </main>
 
         <footer></footer>
 
