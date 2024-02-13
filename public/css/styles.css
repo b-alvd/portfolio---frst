@@ -8,7 +8,7 @@ header {
 header nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 header nav ul {
     display: flex;
@@ -51,6 +51,28 @@ header nav .params select {
     color: white;
 }
 
+.header_hamburger {
+    cursor: pointer;
+    display: none;
+}
+.header_hamburger_bar {
+    height: 2px;
+    width: 27px;
+    background-color: #fff;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+.header_hamburger--open .header_hamburger_bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+.header_hamburger--open .header_hamburger_bar:nth-child(2) {
+    opacity: 0;
+}
+.header_hamburger--open .header_hamburger_bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
 #header_home {
     height: 91.5vh;
 }
@@ -63,9 +85,10 @@ header nav .params select {
     header nav ul {
         display: none;
     }
-    header nav .params {
-        margin-top: -1.5vh;
-        margin-right: 50vw;
+
+    .header_hamburger {
+        cursor: pointer;
+        display: block;
     }
 }
 
