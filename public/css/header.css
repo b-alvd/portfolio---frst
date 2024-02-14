@@ -89,7 +89,7 @@ header nav .params select {
 
 @media screen and (max-width: 790px) {
     header {
-        height: 7.3vh;
+        height: auto;
         top: 0;
         position: sticky;
         background-color: #20202098;
@@ -102,7 +102,7 @@ header nav .params select {
 
     header nav .params {
         padding: 1vh;
-        margin: -1.5vh;
+        margin: -3vh;
     }
 
     .header_hamburger {
