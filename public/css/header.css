@@ -88,8 +88,21 @@ header nav .params select {
 }
 
 @media screen and (max-width: 790px) {
+    header {
+        height: 7.3vh;
+        top: 0;
+        position: sticky;
+        background-color: #20202098;
+        backdrop-filter: blur(10px);
+    }
+
     header nav ul {
         display: none;
+    }
+
+    header nav .params {
+        padding: 1vh;
+        margin: -1.5vh;
     }
 
     .header_hamburger {
