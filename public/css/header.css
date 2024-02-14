@@ -1,4 +1,5 @@
 header {
+    z-index: 1;
     height: 8.5vh;
     top: 0;
     position: sticky;
@@ -82,9 +83,30 @@ header nav .params select {
 #header_home {
     height: 91.5vh;
 }
-.light-mode #header_home img {
-    background: #333;
-    border-radius: 300px;
+#header_home .test {
+    background: #000;
+    width: 30vw;
+    height: 91.5vh;
+}
+#header_home #header_title {
+    position: absolute;
+    font-family: Arial;
+    text-transform: uppercase;
+    cursor: default;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    margin-top: -50vh;
+    margin-left: 16vw;
+    transition: all 2s ease;
+}
+.light-mode #header_home #header_title {
+    background-color: #fff;
+}
+#header_home .test:hover + #header_title {
+    transform: translateX(50px) translateY(0px) rotate(90deg) scale(1.49);
+    border-radius: 0;
 }
 
 @media screen and (max-width: 790px) {
