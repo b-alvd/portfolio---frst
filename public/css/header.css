@@ -27,6 +27,12 @@ header nav ul a:hover {
     color: orange;
     text-decoration: overline;
 }
+header nav .params {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 header nav .params button {
     cursor: pointer;
     padding: 10px;
@@ -90,9 +96,4 @@ header nav .params select {
         cursor: pointer;
         display: block;
     }
-}
-
-main section {
-    height: 100vh;
-    border: 2px solid red;
 }

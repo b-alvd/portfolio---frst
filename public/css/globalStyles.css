@@ -49,3 +49,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 ::-webkit-scrollbar {
     display: none;
 }
+
+
+main section {
+    height: 100vh;
+    border: 2px solid red;
+}
