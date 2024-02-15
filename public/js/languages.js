@@ -6,7 +6,7 @@ const translations = {
         header_link4: 'Projets',
         header_link5: 'Contact',
         
-        header_title: 'Basile ALEVEQUE-DESSOLIN',
+        header_home_title: 'Basile ALEVEQUE-DESSOLIN',
     },
     en: {
         header_link1: 'Home',
@@ -15,7 +15,7 @@ const translations = {
         header_link4: 'Projects',
         header_link5: 'Contact',
         
-        header_title: 'Basile ALEVEQUE-DESSOLIN',
+        header_home_title: 'Basile ALEVEQUE-DESSOLIN',
     }
 };
   
@@ -26,7 +26,7 @@ function setLanguage(lang) {
     document.getElementById('header_link4').innerText = translations[lang].header_link4;
     document.getElementById('header_link5').innerText = translations[lang].header_link5;
     
-    document.getElementById('header_title').innerText = translations[lang].header_title;
+    document.getElementById('header_home_title').innerText = translations[lang].header_home_title;
 }
 function changeLanguage() {
     const langSelect = document.getElementById('langSelect');
