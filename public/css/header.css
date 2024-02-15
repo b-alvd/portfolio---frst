@@ -151,10 +151,10 @@ header nav .params select {
         height: 92.3vh;
     }
     #header_home #header_home_title {
-        font-size: 23px;
+        font-size: 20px;
         padding: 20px;
         margin-top: -90vh;
-        margin-left: 0.80vw;
+        margin-left: 2vw;
     }
     #header_home #header_home_profil_photo:hover {
         background-image: url("../imgs/profil_photo.png");
