@@ -82,45 +82,21 @@ header nav .params select {
 
 #header_home {
     height: 91.5vh;
-}
-#header_home #header_home_profil_photo {
-    background-image: linear-gradient(0.25turn, #000000b0, #000000b0), url("../imgs/profil_photo.png");
-    background-size: cover;
-    background-position: center;
-    width: 30vw;
-    height: 91.5vh;
-    transition: all ease-in-out 2s;
-}
-#header_home #header_home_title {
-    position: absolute;
-    text-transform: uppercase;
-    cursor: default;
-    font-size: 35px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #333;
-    margin-top: -50vh;
-    margin-left: 0.35vw;
-    transition: all 1s ease-in-out;
-}
-.light-mode #header_home #header_home_title {
-    background-color: #fff;
-}
-#header_home #header_home_profil_photo:hover {
-    background-image: url("../imgs/profil_photo.png");
-}
-#header_home #header_home_profil_photo:hover + #header_home_title {
-    transform: translateX(19vw) translateY(0px) rotate(270deg) scale(1.49);
-    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #header_home #header_home_logo {
-    position: absolute;
-    margin-left: 53vw;
-    margin-top: 18vh;
+    margin-bottom: 10vh;
+    transition: all ease-in-out 0.5s;
 }
-.light-mode #header_home #header_home_logo {
+.light-mode #header_home_logo {
     background-color: #333;
-    border-radius: 500px;
+    border-radius: 250px;
+}
+#header_home #header_home_title {
+    font-size: 50px;
 }
 
 @media screen and (max-width: 790px) {
@@ -141,30 +117,5 @@ header nav .params select {
     .header_hamburger {
         cursor: pointer;
         display: block;
-    }
-
-    #header_home {
-        height: 92.5vh;
-    }
-    #header_home #header_home_profil_photo {
-        width: 50vw;
-        height: 92.3vh;
-    }
-    #header_home #header_home_title {
-        font-size: 20px;
-        padding: 20px;
-        margin-top: -90vh;
-        margin-left: 2vw;
-    }
-    #header_home #header_home_profil_photo:hover {
-        background-image: url("../imgs/profil_photo.png");
-    }
-    #header_home #header_home_profil_photo:hover + #header_home_title {
-        transform: scale(1);
-    }
-    #header_home #header_home_logo {
-        width: 200px;
-        margin-left: 50vw;
-        margin-top: 38vh;
     }
 }
