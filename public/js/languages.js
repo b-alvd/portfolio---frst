@@ -55,8 +55,10 @@ function setLanguage(lang) {
 
     document.getElementById('contact_title').innerText = translations[lang].contact_title;
 }
-function changeLanguage(lang) {
-    setLanguage(lang);
+function changeLanguage() {
+    const langSelect = document.getElementById('langSelect');
+    const selectedLang = langSelect.options[langSelect.selectedIndex].value;
+    setLanguage(selectedLang);
 }
 
 // initial language
