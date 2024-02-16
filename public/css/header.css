@@ -99,7 +99,7 @@ header nav .params select {
     font-size: 50px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     header {
         height: auto;
         top: 0;
@@ -117,5 +117,13 @@ header nav .params select {
     .header_hamburger {
         cursor: pointer;
         display: block;
+    }
+
+    #header_home #header_home_logo {
+        margin-bottom: 5vh;
+        width: 300px;
+    }
+    #header_home #header_home_title {
+        font-size: 23px;
     }
 }

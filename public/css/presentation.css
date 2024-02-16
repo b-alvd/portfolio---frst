@@ -45,9 +45,9 @@
 
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages {
     padding: 20px;
+    text-align: center;
 }
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages h4 {
-    text-align: center;
     margin-bottom: 20px;
 }
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages img {
@@ -61,12 +61,10 @@
 
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos {
     width: 65%;
-}
-#informations #presentation_card #presentation_card_informations #presentation_card_informations_technos {
     padding: 20px;
+    text-align: center;
 }
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos h4 {
-    text-align: center;
     margin-bottom: 20px;
 }
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos img {
@@ -76,4 +74,46 @@
 }
 #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos img:hover {
     transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 768px) {
+    #informations {
+        padding: 10px;
+    }
+    #informations h2 {
+        padding-top: 100px;
+    }
+    
+    #informations #presentation_card #presentation_card_profil_infos {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    #informations #presentation_card #presentation_card_profil_infos img {
+        margin-bottom: 20px;
+    }
+    #informations #presentation_card  #presentation_card_profil_infos_text {
+        width: 100%;
+    }
+
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages h4 {
+        margin-bottom: 20px;
+    }
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages #icones_l {
+        display: flex;
+    }
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_languages img {
+        width: 50px;
+        margin: 10px 20px;
+        transition: all ease 0.5s;
+    }
+    
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos {
+        width: 100%;
+    }
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos h4 {
+        margin-bottom: 20px;
+    }
+    #informations #presentation_card #presentation_card_informations #presentation_card_informations_technos #icones_t {
+        display: flex;
+    }
 }
