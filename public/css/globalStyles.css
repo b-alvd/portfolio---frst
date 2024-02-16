@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #fff;
+    background-color: #252525;
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
@@ -37,13 +37,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
     transition: all ease-in-out .3s;
 }
 #scrollToTop:hover {
-    background-color: #dbdbdb;
+    background-color: #303030;
 }
 .light-mode #scrollToTop {
-    background-color: #333;
+    background-color: #eeeeee;
 }
 .light-mode #scrollToTop:hover {
-    background-color: #555;
+    background-color: #c4c4c4;
 }
 
 ::-webkit-scrollbar {
