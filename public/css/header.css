@@ -110,13 +110,27 @@ header nav .params select {
     header nav ul {
         display: none;
     }
+    header nav ul.show {
+        z-index: 1;
+        position: absolute;
+        display: block;
+        text-align: center;
+        left: 0;
+        top: 50px;
+        width: 100vw;
+        background-color: red;
+    }
+    header nav ul.show li  {
+        margin: 5vh 0;
+    }
     header nav .params {
         padding: 1vh;
         margin: -3vh;
     }
     .header_hamburger {
-        cursor: pointer;
+        z-index: 2;
         display: block;
+        cursor: pointer;
     }
 
     #header_home #header_home_logo {

@@ -1,15 +1,7 @@
-const nav = document.querySelector('header nav');
 const hamburger = document.querySelector('.header_hamburger');
-// const navItemEls = document.querySelectorAll('.header_nav__item');
+const navMenu = document.querySelector('header nav ul');
 
 hamburger.addEventListener('click', () => {
-    // nav.classList.toggle('header_nav--open');
     hamburger.classList.toggle('header_hamburger--open');
+    navMenu.classList.toggle('show');
 });
-
-// navItemEls.forEach(navItemEl => {
-//     navItemEl.addEventListener('click', () => {
-//         navEl.classList.remove('header_nav--open');
-//         hamburgerEl.classList.remove('header_hamburger--open');
-//     });
-// });

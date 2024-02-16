@@ -81,7 +81,8 @@
         padding: 10px;
     }
     #informations h2 {
-        padding-top: 100px;
+        margin-top: -4vh;
+        padding-top: 50px;
     }
     
     #informations #presentation_card #presentation_card_profil_infos {
