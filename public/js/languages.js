@@ -12,6 +12,18 @@ const translations = {
         mastered_technologies: 'Technologies maîtrisées',
 
         career_title: 'PARCOURS',
+        bac: 'Baccalauréat',
+        section: 'Section: STI2D',
+        establishment: 'Lycée: La Martinière Diderot',
+        location1: 'Lieu: Lyon',
+        // // // // //
+        formation1: 'Formation pro: Dév. web et web mobile',
+        eLevel1: 'Niveau de sortie: RNCP Niv.5 (Bac+2)',
+        organization: 'Organisme de formation : Human Booster',
+        location2: 'Lieu : Bel Air School, Villeurbanne',
+        // // // // //
+        following: 'La suite...',
+        see: 'On verra...',
 
         projects_title: 'PROJETS',
 
@@ -30,6 +42,18 @@ const translations = {
         mastered_technologies: 'Mastered technologies',
 
         career_title: 'CAREER',
+        bac: 'High school baccalaureate',
+        section: 'Section: STI2D',
+        establishment: 'High school: La Martinière Diderot',
+        location1: 'Location: Lyon',
+        // // // // //
+        formation1: 'Pro. training: Web dev and mobile web',
+        eLevel1: 'Exit level: RNCP Lvl.5 (Bac+2)',
+        organization: 'Training organization: Human Booster',
+        location2: 'Location: Bel Air School, Villeurbanne',
+        // // // // //
+        following: 'The following...',
+        see: 'We\'ll see...',
 
         projects_title: 'PROJECTS',
 
@@ -50,6 +74,18 @@ function setLanguage(lang) {
     document.getElementById('mastered_technologies').innerText = translations[lang].mastered_technologies;
 
     document.getElementById('career_title').innerText = translations[lang].career_title;
+    document.getElementById('bac').innerText = translations[lang].bac;
+    document.getElementById('section').innerText = translations[lang].section;
+    document.getElementById('establishment').innerText = translations[lang].establishment;
+    document.getElementById('location1').innerText = translations[lang].location1;
+    // // // // //
+    document.getElementById('formation1').innerText = translations[lang].formation1;
+    document.getElementById('eLevel1').innerText = translations[lang].eLevel1;
+    document.getElementById('organization').innerText = translations[lang].organization;
+    document.getElementById('location2').innerText = translations[lang].location2;
+    // // // // //
+    document.getElementById('following').innerText = translations[lang].following;
+    document.getElementById('see').innerText = translations[lang].see;
 
     document.getElementById('projects_title').innerText = translations[lang].projects_title;
 

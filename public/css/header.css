@@ -43,7 +43,7 @@ header nav .params button {
     transition: all ease-in-out .3s;
 }
 .light-mode header nav .params button {
-    background: #333;
+    background: #fff;
 }
 header nav .params select {
     cursor: pointer;
@@ -54,8 +54,8 @@ header nav .params select {
     transition: all ease-in-out .3s;
 }
 .light-mode header nav .params select {
-    background: #333;
-    color: white;
+    background: #fff;
+    color: #333;
 }
 
 .header_hamburger {
