@@ -10,6 +10,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 8vh;
 }
 header nav ul {
     display: flex;
