@@ -1,0 +1,62 @@
+#projects {
+    padding: 50px;
+}
+#projects h2 {
+    text-align: center;
+    padding: 50px;
+    text-decoration: underline 5px orange;
+}
+
+#projects #projects_cards {
+    display: flex;
+}
+
+#projects #projects_cards #project_card {
+    min-width: 500px;
+    margin: 20px;
+    background-color: #505050;
+    text-align: center;
+    border-radius: 10px;
+}
+#projects #projects_cards #project_card img {
+    width: 93%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#projects #projects_cards #project_card h3 {
+    text-decoration: underline 3px orange;
+    padding-bottom: 3vh;
+}
+#projects #projects_cards #project_card p {
+    padding: 0 50px;
+}
+
+#projects #projects_cards #projects_cards_infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#projects #projects_cards #projects_cards_infos #projects_cards_infos_langages {
+    display: flex;
+    padding: 20px 0;
+}
+#projects #projects_cards #projects_cards_infos #projects_cards_infos_langages img {
+    width: 30px;
+    transition: all ease-in-out .3s;
+}
+#projects #projects_cards #projects_cards_infos #projects_cards_infos_langages img:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 0.70rem white);
+}
+
+@media only screen and (max-width: 768px) {
+    #projects {
+        padding: 10px;
+    }
+    #projects h2 {
+        margin-top: -4vh;
+        padding-top: 50px;
+    }
+}
