@@ -10,6 +10,7 @@ const translations = {
         presentation_paragraph: 'Bienvenue sur mon portfolio ! Je suis un développeur web junior passionné par la création d\'expériences en ligne remarquables. Avec une expertise en HTML, CSS et JavaScript, je transforme les concepts en sites web élégants et fonctionnels. Explorez mes projets pour voir comment je combine créativité et compétences techniques pour produire des résultats exceptionnels. Prêt à collaborer sur votre prochain projet passionnant !',
         spoken_languages: 'Langues parlées',
         mastered_technologies: 'Technologies maîtrisées',
+        know_more: 'En savoir plus...',
 
         career_title: 'PARCOURS',
         bac: 'Baccalauréat',
@@ -40,6 +41,7 @@ const translations = {
         presentation_paragraph: 'Welcome to my portfolio ! I\'m a junior web developer passionate about creating remarkable online experiences. With expertise in HTML, CSS and JavaScript, I transform concepts into elegant and functional websites. Explore my projects to see how I combine creativity and technical skills to produce exceptional results. Ready to collaborate on your next exciting project !',
         spoken_languages: 'Spoken languages',
         mastered_technologies: 'Mastered technologies',
+        know_more: 'Know more...',
 
         career_title: 'CAREER',
         bac: 'High school baccalaureate',
@@ -72,6 +74,7 @@ function setLanguage(lang) {
     document.getElementById('presentation_paragraph').innerText = translations[lang].presentation_paragraph;
     document.getElementById('spoken_languages').innerText = translations[lang].spoken_languages;
     document.getElementById('mastered_technologies').innerText = translations[lang].mastered_technologies;
+    document.getElementById('know_more').innerText = translations[lang].know_more;
 
     document.getElementById('career_title').innerText = translations[lang].career_title;
     document.getElementById('bac').innerText = translations[lang].bac;
