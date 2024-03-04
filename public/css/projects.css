@@ -1,10 +1,10 @@
 #projects {
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
 }
 #projects h2 {
     text-align: center;
-    padding: 50px;
     text-decoration: underline 5px orange;
+    padding: 0px 0px 50px 0px;
 }
 
 #projects #projects_cards {
@@ -58,5 +58,30 @@
     #projects h2 {
         margin-top: -4vh;
         padding-top: 50px;
+    }
+    #projects #projects_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    #projects #projects_cards #project_card {
+        min-width: unset;
+        width: 100%;
+        margin: 20px 0;
+    }
+    #projects #projects_cards #project_card img {
+        width: 85%;
+    }
+    #projects #projects_cards #project_card h3 {
+        padding-bottom: 2vh;
+    }
+    #projects #projects_cards #project_card p {
+        padding: 0 20px;
+    }
+    #projects #projects_cards #projects_cards_infos {
+        flex-direction: column;
+        margin-bottom: 4vh;
+    }
+    #projects #projects_cards #projects_cards_infos #projects_cards_infos_langages {
+        padding: 10px 0;
     }
 }

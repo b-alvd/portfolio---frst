@@ -1,10 +1,10 @@
 #career {
-    padding: 100px 0;
+    padding: 50px 50px 0px 50px;
 }
-
 #career h2 {
     text-align: center;
     text-decoration: underline 5px orange;
+    padding: 0px 0px 50px 0px;
 }
 
 #career_cards {
